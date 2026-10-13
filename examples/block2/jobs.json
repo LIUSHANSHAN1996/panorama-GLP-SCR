@@ -1,0 +1,103 @@
+{
+  "description": "Block 2 real GLP example. Composed horizontal translations; same source and target height. No ground-view shift.",
+  "defaults": {
+    "street_azimuth_deg": 195.0,
+    "distance_left_m": 10.44,
+    "distance_right_m": 10.76,
+    "source_height_m": 1.2,
+    "target_height_m": 1.2,
+    "tolerance": 10
+  },
+  "jobs": [
+    {
+      "job_id": "2C-1_to_2C-5",
+      "source_mask": "references/2C-1.jpg",
+      "target_id": "2C-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": -27.7,
+        "lateral_offset_m": 0
+      }
+    },
+    {
+      "job_id": "2C-6_to_2C-5",
+      "source_mask": "references/2C-6.jpg",
+      "target_id": "2C-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": 9.2,
+        "lateral_offset_m": 0
+      }
+    },
+    {
+      "job_id": "2C-12_to_2C-5",
+      "source_mask": "references/2C-12.jpg",
+      "target_id": "2C-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": 63.2,
+        "lateral_offset_m": 0
+      }
+    },
+    {
+      "job_id": "2C-1_to_2E-5",
+      "source_mask": "references/2C-1.jpg",
+      "target_id": "2E-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": -27.9,
+        "lateral_offset_m": -7.25
+      }
+    },
+    {
+      "job_id": "2C-6_to_2E-5",
+      "source_mask": "references/2C-6.jpg",
+      "target_id": "2E-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": 9.0,
+        "lateral_offset_m": -7.25
+      }
+    },
+    {
+      "job_id": "2C-12_to_2E-5",
+      "source_mask": "references/2C-12.jpg",
+      "target_id": "2E-5",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": 63.0,
+        "lateral_offset_m": -7.25
+      }
+    },
+    {
+      "job_id": "2C-1_to_2W-11",
+      "source_mask": "references/2C-1.jpg",
+      "target_id": "2W-11",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": -83.1,
+        "lateral_offset_m": 7.35
+      }
+    },
+    {
+      "job_id": "2C-6_to_2W-11",
+      "source_mask": "references/2C-6.jpg",
+      "target_id": "2W-11",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": -46.2,
+        "lateral_offset_m": 7.35
+      }
+    },
+    {
+      "job_id": "2C-12_to_2W-11",
+      "source_mask": "references/2C-12.jpg",
+      "target_id": "2W-11",
+      "group": "facade",
+      "geometry": {
+        "walk_distance_m": 7.8,
+        "lateral_offset_m": 7.35
+      }
+    }
+  ]
+}
